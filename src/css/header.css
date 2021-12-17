@@ -1,0 +1,45 @@
+.mheader{
+   border-bottom:1.5px solid lightgray; 
+    height: 80px;
+    position: sticky;
+    
+}
+
+
+
+.iheader{
+    /* border:1.5px solid rgb(245, 147, 147); */
+    height: 80px;
+}
+
+.icontent-h{
+
+    width:inherit;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* border: 1px solid red; */
+
+}
+
+#globalise-logo{
+width:180px; 
+height:28px;   
+background-image: url(../assets/logoblue.png);
+background-size:contain;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 50px;
+display: flex;
+}
+
+.btn-cntnr{
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+}
+

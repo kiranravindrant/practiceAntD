@@ -1,0 +1,43 @@
+.ftr-container{
+
+    background-color:rgb(16,34,54);
+}
+
+.ftr-inner-col{
+    height: 140px;
+}
+
+.ftr-items-row{
+height:45px ;
+/* border: 1px solid rgb(7, 252, 101); */
+padding-top: 10px;
+
+}
+
+.ftr-items{
+   
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left:5px;
+}
+
+
+
+
+#divider-ant{
+background-color: white;
+transform: scaleY(0.5);
+margin-top:5px;
+}
+
+.logo-ftr{
+width:200px;
+height:38px;
+background-image: url('../assets/footerlogo.png');
+background-size:auto;
+background-repeat: no-repeat;
+}
